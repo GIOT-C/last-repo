@@ -1,0 +1,161 @@
+.Cover-container {
+    background-image: url(./images/cover.png);
+    background-size: cover;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.navigation {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 80px;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.logo:hover {
+    -webkit-text-stroke: 1px rgb(82, 67, 194);
+}
+
+.navigation>ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navigation>ul>li {
+    cursor: pointer;
+    transition: 0.2s;
+    color: rgb(179, 180, 180);
+}
+
+.navigation>ul>li:first-of-type {
+    color: white;
+}
+
+.navigation>ul>li:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(82, 67, 194);
+
+}
+
+.fa-paper-plane,
+.fa-magnifying-glass {
+    font-size: medium;
+    color: rgb(82, 67, 194);
+}
+
+.fa-paper-plane {
+    vertical-align: 20px;
+}
+
+.account {
+    display: flex;
+}
+
+.account-user {
+    padding-right: 10px;
+}
+
+.holla {
+    text-align: end;
+}
+
+.member-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.holla {
+    color: rgb(179, 180, 180);
+    padding-bottom: 5px;
+}
+
+.member {
+    color: white;
+    cursor: pointer;
+}
+
+.member:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(82, 67, 194);
+}
+
+.header-text {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+.discover-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.discover {
+    width: 240px;
+    height: 50px;
+    background-color: rgb(123, 97, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fa-globe {
+    margin-right: 10px;
+}
+
+.info-parent-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    padding-bottom: 100px;
+}
+
+.info-container {
+    background-color: white;
+    width: 70%;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.info-child-container {
+    display: flex;
+    align-items: center;
+}
+
+.info-i {
+    color: rgb(255, 168, 0);
+    padding-right: 15px;
+}
+
+.fa-magnifying-glass {
+    font-size: x-large;
+}
+
+.main-p {
+
+    color: rgb(179, 180, 180);
+}
+
+.dark-text {
+    color: black;
+    font-size: large;
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.hotels-header-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.hotels-header-child-container {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotels-header-button {
+    width: 80px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: rgb(123, 97, 255);
+}
+
+
+.hotels-body-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 0 100px;
+    cursor: pointer;
+    padding-bottom: 200px;
+}
+
+.hotels-body-container-two {
+    padding-bottom: 50px;
+}
+
+.read-more:hover {
+    color: orange;
+}

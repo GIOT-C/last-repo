@@ -1,0 +1,58 @@
+.footer-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 13% 13% 13% 33%;
+    gap: 10px;
+    padding: 0 100px;
+    margin-top: 150px;
+    background-color: rgb(249, 249, 249);
+}
+
+.footer-child-container {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.footer-child-container>h2 {
+    padding-bottom: 10px;
+}
+
+.footer-child-container>p {
+    padding-top: 15px;
+    cursor: pointer;
+    color: rgb(179, 180, 180);
+}
+
+.icon-container {
+    padding-top: 40px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.gmail-container>p {
+    color: rgb(179, 180, 180);
+}
+
+.arrow-container {
+    font-size: xx-large;
+    color: rgb(82, 67, 194);
+    cursor: pointer;
+}
+
+.gmail-container {
+    padding: 10px 5%;
+}

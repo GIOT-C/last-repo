@@ -1,0 +1,15 @@
+.destination-header {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-left: 7.5%;
+}
+
+.destination-body-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    padding: 0 100px;
+    cursor: pointer;
+    padding-bottom: 200px;
+}

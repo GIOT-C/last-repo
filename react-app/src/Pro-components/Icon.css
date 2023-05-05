@@ -1,0 +1,19 @@
+.fa-brands {
+    font-size: x-large;
+    color: rgb(82, 67, 194);
+    cursor: pointer;
+
+}
+
+.fa-twitter,
+.fa-instagram {
+    cursor: pointer;
+    padding-left: 30px;
+}
+
+.fa-envelope {
+    color: rgb(255, 168, 0);
+    font-size: large;
+    padding-left: 5%;
+
+}
